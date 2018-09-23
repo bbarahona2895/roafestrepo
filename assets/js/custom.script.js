@@ -177,44 +177,44 @@
         /*=========================================================================
          ===  GOOGLE MAP
          ========================================================================== */
-        if (typeof google != 'undefined') {
-            //for Default  map
-            var mapCanvasDefault = $('.map-canvas-default');
-            if (mapCanvasDefault.length) {
-                mapCanvasDefault.googleMap({
-                    zoom: 8, // Initial zoom level (optiona
-                    coords: [40.7127, 74.0059], // Map center (optional)
-                    type: "ROADMAP", // Map type (optional),
-                    mouseZoom: false
-                });
+        // if (typeof google != 'undefined') {
+        //     //for Default  map
+        //     var mapCanvasDefault = $('.map-canvas-default');
+        //     if (mapCanvasDefault.length) {
+        //         mapCanvasDefault.googleMap({
+        //             zoom: 8, // Initial zoom level (optiona
+        //             coords: [40.7127, 74.0059], // Map center (optional)
+        //             type: "ROADMAP", // Map type (optional),
+        //             mouseZoom: false
+        //         });
 
-                //for marker
-                mapCanvasDefault.addMarker({
-                    coords: [40.7127, 74.0059], // GPS coords
-                    title: 'EventPro',
-                    text: '121 King St, Melbourne VIC 3000, Australia',
-                    icon: csi_path + '/assets/img/map/map-icon.png'
-                });
-            }
+        //         //for marker
+        //         mapCanvasDefault.addMarker({
+        //             coords: [40.7127, 74.0059], // GPS coords
+        //             title: 'EventPro',
+        //             text: '121 King St, Melbourne VIC 3000, Australia',
+        //             icon: csi_path + '/assets/img/map/map-icon.png'
+        //         });
+        //     }
 
-            // FOR DARK MAP
-            if (mapCanvasDefault.length) {
-                mapCanvasDefault.googleMap({
-                    zoom: 8, // Initial zoom level (optiona
-                    coords: [40.7127, 74.0059], // Map center (optional)
-                    type: "HYBRID", // Map type (optional),
-                    mouseZoom: false
-                });
+        //     // FOR DARK MAP
+        //     if (mapCanvasDefault.length) {
+        //         mapCanvasDefault.googleMap({
+        //             zoom: 8, // Initial zoom level (optiona
+        //             coords: [40.7127, 74.0059], // Map center (optional)
+        //             type: "HYBRID", // Map type (optional),
+        //             mouseZoom: false
+        //         });
 
-                //for marker
-                mapCanvasDefault.addMarker({
-                    coords: [40.7127, 74.0059], // GPS coords
-                    title: 'EventPro',
-                    text: '121 King St, Melbourne VIC 3000, Australia',
-                    icon: csi_path + '/assets/img/map/map-icon.png'
-                });
-            }
-        }
+        //         //for marker
+        //         mapCanvasDefault.addMarker({
+        //             coords: [40.7127, 74.0059], // GPS coords
+        //             title: 'EventPro',
+        //             text: '121 King St, Melbourne VIC 3000, Australia',
+        //             icon: csi_path + '/assets/img/map/map-icon.png'
+        //         });
+        //     }
+        // }
 
         /*=========================================================================
          ===  //GOOGLE MAP END
